@@ -33,7 +33,6 @@ public class MainActivity extends Activity {
             super.handleMessage(msg);
             viewPager.setCurrentItem(viewPager.getCurrentItem()+1);
             handler.sendEmptyMessageDelayed(0,3000);
-
         }
     };
     @Override
